@@ -1,0 +1,8 @@
+<!--posts/home.html-->
+<h1> Messages of Board HomePage
+    <ul>
+        {% for post in all_posts_list %}
+        <li>{{ post.text }}</li>
+        {% endfor %}
+    </ul>
+</h1>
